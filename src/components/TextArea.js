@@ -144,7 +144,7 @@ export default function TextArea(props) {
 
                     <div>
                         <div className="flex justify-between">
-                            <div>
+                            <div className="flex-1">
                                 <button
                                     type="button"
                                     onClick={handleUpClick}
@@ -160,7 +160,7 @@ export default function TextArea(props) {
                                     Change to LowerCase
                                 </button>
                             </div>
-                            <div>
+                            <div className="">
                                 <button
                                     type="button"
                                     onClick={handleCopyClick}
